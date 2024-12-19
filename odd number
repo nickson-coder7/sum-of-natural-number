@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+void printOddNumbers(int N) {
+    for (int i = 1; i <= N; i += 2) {
+        cout << i << " ";
+    }
+    cout << endl;
+}
+
+int main() {
+    int N;
+    cout << "Enter a number N: ";
+    cin >> N;
+
+    cout << "Odd numbers up to " << N << " are: ";
+    printOddNumbers(N);
+
+    return 0;
+}
